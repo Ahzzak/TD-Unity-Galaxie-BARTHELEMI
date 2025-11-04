@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 5009881088176207864}
   - component: {fileID: 5844398338152298317}
   - component: {fileID: 2875360557132560706}
+  - component: {fileID: 1960784224466097170}
   - component: {fileID: 3657592409913242230}
   m_Layer: 0
   m_Name: PlanetColorMan
@@ -144,6 +145,19 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1960784224466097170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3185647330452318981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 364713b05f314dcb495e6357899b0045, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ToggleOrbit
+  orbit: {fileID: 3657592409913242230}
 --- !u!114 &3657592409913242230
 MonoBehaviour:
   m_ObjectHideFlags: 0

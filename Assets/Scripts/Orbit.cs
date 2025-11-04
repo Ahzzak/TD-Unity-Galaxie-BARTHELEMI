@@ -1,6 +1,6 @@
 using UnityEngine;
-
-public class Orbits : MonoBehaviour
+[System.Serializable]
+public class Orbit : MonoBehaviour
 {
     //Centre de l’orbite (ex: le Soleil)
     public Transform pivot;
