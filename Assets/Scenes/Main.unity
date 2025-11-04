@@ -432,6 +432,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &928686993 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2942371836465625582, guid: ec0e87a6f9c99ea4ba18bce0c2f3f9e0, type: 3}
+  m_PrefabInstance: {fileID: 739552824771350258}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1352510704 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6946416875567722431, guid: ec0e87a6f9c99ea4ba18bce0c2f3f9e0, type: 3}
+  m_PrefabInstance: {fileID: 739552824771350258}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1352510709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352510704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac4cd857e1c9ec47ad85724cb0dd068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Orbits
+  pivot: {fileID: 928686993}
+  angularSpeed: -112.6
+  selfRotationSpeed: 34
 --- !u!1 &1941298638
 GameObject:
   m_ObjectHideFlags: 0
@@ -543,6 +568,66 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &739552824771350258
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2942371836465625582, guid: ec0e87a6f9c99ea4ba18bce0c2f3f9e0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2942371836465625582, guid: ec0e87a6f9c99ea4ba18bce0c2f3f9e0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2942371836465625582, guid: ec0e87a6f9c99ea4ba18bce0c2f3f9e0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2942371836465625582, guid: ec0e87a6f9c99ea4ba18bce0c2f3f9e0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2942371836465625582, guid: ec0e87a6f9c99ea4ba18bce0c2f3f9e0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2942371836465625582, guid: ec0e87a6f9c99ea4ba18bce0c2f3f9e0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2942371836465625582, guid: ec0e87a6f9c99ea4ba18bce0c2f3f9e0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2942371836465625582, guid: ec0e87a6f9c99ea4ba18bce0c2f3f9e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2942371836465625582, guid: ec0e87a6f9c99ea4ba18bce0c2f3f9e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2942371836465625582, guid: ec0e87a6f9c99ea4ba18bce0c2f3f9e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149400470904112040, guid: ec0e87a6f9c99ea4ba18bce0c2f3f9e0, type: 3}
+      propertyPath: m_Name
+      value: Ferreol_Pivot
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6946416875567722431, guid: ec0e87a6f9c99ea4ba18bce0c2f3f9e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1352510709}
+  m_SourcePrefab: {fileID: 100100000, guid: ec0e87a6f9c99ea4ba18bce0c2f3f9e0, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -551,3 +636,4 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 1941298642}
+  - {fileID: 739552824771350258}
