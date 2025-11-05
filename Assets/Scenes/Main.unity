@@ -653,6 +653,10 @@ PrefabInstance:
       propertyPath: pivot
       value: 
       objectReference: {fileID: 1941298642}
+    - target: {fileID: 4366241421712645901, guid: ea92cbeda3e6f35468802b058c176c9c, type: 3}
+      propertyPath: angularSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8225204491504348829, guid: ea92cbeda3e6f35468802b058c176c9c, type: 3}
       propertyPath: m_Name
       value: PlanetAudrey_Pivot
