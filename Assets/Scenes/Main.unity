@@ -175,10 +175,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 8.72
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8074291950683731860, guid: 49a4972acab95bd4a8db0f0851b39465, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2009768797981523451, guid: 49a4972acab95bd4a8db0f0851b39465, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1863587787}
     - targetCorrespondingSourceObject: {fileID: 1164750038175995878, guid: 49a4972acab95bd4a8db0f0851b39465, type: 3}
       insertIndex: -1
       addedObject: {fileID: 188310381}
@@ -573,6 +577,11 @@ TrailRenderer:
   m_Autodestruct: 0
   m_Emitting: 1
   m_ApplyActiveColorSpace: 1
+--- !u!1 &402808984 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2385522324676458327, guid: c869d375fb4364ea692dd57dd1ca42cb, type: 3}
+  m_PrefabInstance: {fileID: 1295536524}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -705,21 +714,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6946416875567722431, guid: ec0e87a6f9c99ea4ba18bce0c2f3f9e0, type: 3}
   m_PrefabInstance: {fileID: 1659060183}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &610854861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 610854856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aac4cd857e1c9ec47ad85724cb0dd068, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Orbits
-  pivot: {fileID: 1214645382}
-  angularSpeed: 20
-  selfRotationSpeed: -112
 --- !u!96 &610854863
 TrailRenderer:
   serializedVersion: 3
@@ -839,11 +833,46 @@ TrailRenderer:
   m_Autodestruct: 0
   m_Emitting: 1
   m_ApplyActiveColorSpace: 1
+--- !u!1 &641679347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 863086318278220260, guid: be9ad6219232dc939a966dd966b00d76, type: 3}
+  m_PrefabInstance: {fileID: 1500080412}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &641679348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641679347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac4cd857e1c9ec47ad85724cb0dd068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Orbits
+  pivot: {fileID: 1941298642}
+  angularSpeed: 10
+  selfRotationSpeed: 20
 --- !u!4 &749597616 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8286630842561701524, guid: c869d375fb4364ea692dd57dd1ca42cb, type: 3}
   m_PrefabInstance: {fileID: 1295536524}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &749597617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402808984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac4cd857e1c9ec47ad85724cb0dd068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Orbits
+  pivot: {fileID: 1941298642}
+  angularSpeed: 200
+  selfRotationSpeed: 75
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -893,10 +922,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &855516729 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8225204491504348829, guid: ea92cbeda3e6f35468802b058c176c9c, type: 3}
+  m_PrefabInstance: {fileID: 1266202335}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &855516730 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3666845221302212737, guid: ea92cbeda3e6f35468802b058c176c9c, type: 3}
   m_PrefabInstance: {fileID: 1266202335}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &855516731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 855516729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac4cd857e1c9ec47ad85724cb0dd068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Orbits
+  pivot: {fileID: 1941298642}
+  angularSpeed: 20
+  selfRotationSpeed: 100
+--- !u!1 &864087885 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6149400470904112040, guid: ec0e87a6f9c99ea4ba18bce0c2f3f9e0, type: 3}
+  m_PrefabInstance: {fileID: 1659060183}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1027635316 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2009768797981523451, guid: 49a4972acab95bd4a8db0f0851b39465, type: 3}
+  m_PrefabInstance: {fileID: 175780470}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1067909711
 GameObject:
@@ -946,6 +1005,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2942371836465625582, guid: ec0e87a6f9c99ea4ba18bce0c2f3f9e0, type: 3}
   m_PrefabInstance: {fileID: 1659060183}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1214645383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864087885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac4cd857e1c9ec47ad85724cb0dd068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Orbits
+  pivot: {fileID: 1941298642}
+  angularSpeed: 20
+  selfRotationSpeed: -112
 --- !u!1001 &1266202335
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -998,10 +1072,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlanetAudrey_Pivot
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5661142071139369412, guid: ea92cbeda3e6f35468802b058c176c9c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8225204491504348829, guid: ea92cbeda3e6f35468802b058c176c9c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 855516731}
     - targetCorrespondingSourceObject: {fileID: 3346122774971524125, guid: ea92cbeda3e6f35468802b058c176c9c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1456473767}
@@ -1058,10 +1136,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8705221044031954567, guid: c869d375fb4364ea692dd57dd1ca42cb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2385522324676458327, guid: c869d375fb4364ea692dd57dd1ca42cb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 749597617}
     - targetCorrespondingSourceObject: {fileID: 3369028719907402197, guid: c869d375fb4364ea692dd57dd1ca42cb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 355871038}
@@ -1243,7 +1325,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 1.75
   m_PreviewTimeScale: 1
   m_Parameters:
     serializedVersion: 3
@@ -1370,10 +1452,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PivotYuna
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6545684046575522283, guid: f70b8d9e4c69c9f4b8c7f714891dda42, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7354109755720696612, guid: f70b8d9e4c69c9f4b8c7f714891dda42, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1706234515}
     - targetCorrespondingSourceObject: {fileID: 3380428792112085577, guid: f70b8d9e4c69c9f4b8c7f714891dda42, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1418573293}
@@ -1430,10 +1516,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlanetColorMan_Pivot
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3657592409913242230, guid: be9ad6219232dc939a966dd966b00d76, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 863086318278220260, guid: be9ad6219232dc939a966dd966b00d76, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 641679348}
     - targetCorrespondingSourceObject: {fileID: 3185647330452318981, guid: be9ad6219232dc939a966dd966b00d76, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1963220558}
@@ -1494,18 +1584,53 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6946416875567722431, guid: ec0e87a6f9c99ea4ba18bce0c2f3f9e0, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 6149400470904112040, guid: ec0e87a6f9c99ea4ba18bce0c2f3f9e0, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 610854861}
+      addedObject: {fileID: 1214645383}
     - targetCorrespondingSourceObject: {fileID: 6946416875567722431, guid: ec0e87a6f9c99ea4ba18bce0c2f3f9e0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 610854863}
   m_SourcePrefab: {fileID: 100100000, guid: ec0e87a6f9c99ea4ba18bce0c2f3f9e0, type: 3}
+--- !u!1 &1706234514 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7354109755720696612, guid: f70b8d9e4c69c9f4b8c7f714891dda42, type: 3}
+  m_PrefabInstance: {fileID: 1467620958}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1706234515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706234514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac4cd857e1c9ec47ad85724cb0dd068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Orbits
+  pivot: {fileID: 1941298642}
+  angularSpeed: 80
+  selfRotationSpeed: 5
 --- !u!4 &1863587786 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7616178458458347025, guid: 49a4972acab95bd4a8db0f0851b39465, type: 3}
   m_PrefabInstance: {fileID: 175780470}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1863587787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027635316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac4cd857e1c9ec47ad85724cb0dd068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Orbits
+  pivot: {fileID: 1941298642}
+  angularSpeed: 20
+  selfRotationSpeed: 30
 --- !u!1 &1941298638
 GameObject:
   m_ObjectHideFlags: 0
