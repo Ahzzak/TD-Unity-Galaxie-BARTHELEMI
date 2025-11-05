@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 2875360557132560706}
   - component: {fileID: 1960784224466097170}
   - component: {fileID: 3657592409913242230}
+  - component: {fileID: 6150503828765555919}
   m_Layer: 0
   m_Name: PlanetColorMan
   m_TagString: Untagged
@@ -173,3 +174,16 @@ MonoBehaviour:
   pivot: {fileID: 436593651787039419}
   angularSpeed: 10
   selfRotationSpeed: 20
+--- !u!114 &6150503828765555919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3185647330452318981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c36d6d6a450ed9346894bfb1b2854423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MouseHighlight
+  material: {fileID: 2100000, guid: 30103136107b45b0bb9b8ece2d15033e, type: 2}
