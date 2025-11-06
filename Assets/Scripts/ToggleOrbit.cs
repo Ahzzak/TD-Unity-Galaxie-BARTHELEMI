@@ -2,29 +2,38 @@ using UnityEngine;
 
 public class ToggleOrbit : MonoBehaviour
 {
-        // Touche utilisée pour activer/désactiver
-        public KeyCode toggleKey = KeyCode.Space;
+    // Touche utilisée pour activer/désactiver
+    public KeyCode toggleKey = KeyCode.Space;
 
-        // État de l’orbite (activé ou non)
-        private bool orbitEnabled = false;
-   
+    // Référence vers le script qui fait tourner la planète
+    private Orbits orbitScript;
 
-    // Update is called once per frame
+    // État de l’orbite (activé ou non)
+    private bool orbitEnabled = true;
+
+    void Start()
+    {
+        // On récupère le script Orbit sur le même objet
+        orbitScript = GetComponent<Orbits>();
+
+        if (orbitScript == null)
+        {
+            Debug.LogWarning("Aucun script 'Orbit' trouvé sur cet objet !");
+        }
+    }
+
     void Update()
     {
         // Quand on appuie sur la touche définie
         if (Input.GetKeyDown(toggleKey))
         {
-
-            // On inverse l’état (on “toggle”)
             orbitEnabled = !orbitEnabled;
 
             Debug.Log("Orbit mode: " + (orbitEnabled ? "ON" : "OFF"));
-        }
-        // Si le mode orbite est activé, on exécute un comportement
-        if (orbitEnabled)
-        {
-            transform.RotateAround(Vector3.zero, Vector3.up, 20 * Time.deltaTime);
+
+            // On active ou désactive le script Orbit
+            if (orbitScript != null)
+                orbitScript.enabled = orbitEnabled;
         }
     }
 }
