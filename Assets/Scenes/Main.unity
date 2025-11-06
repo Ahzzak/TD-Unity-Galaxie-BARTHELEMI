@@ -200,6 +200,7 @@ GameObject:
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
   - component: {fileID: 330585548}
+  - component: {fileID: 330585549}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -338,6 +339,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ToggleOrbit
   toggleKey: 32
+--- !u!114 &330585549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfaf5882702bbd342919aeb43bf3b848, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OrbitCamera
+  target: {fileID: 1941298642}
+  distance: 100
+  rotationSpeed: 50
+  mouseSensitivity: 2
+  zoomSpeed: 5
+  minDistance: 2
+  maxDistance: 20
 --- !u!4 &351254059 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 436593651787039419, guid: be9ad6219232dc939a966dd966b00d76, type: 3}
@@ -519,7 +539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb6cdc0dd71a0594dac6f93aa26d754c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  highlightColor: {r: 1, g: 1, b: 1, a: 1}
+  highlightColor: {r: 0.98490566, g: 0.9418535, b: 0.8752652, a: 1}
 --- !u!4 &749597616 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8286630842561701524, guid: c869d375fb4364ea692dd57dd1ca42cb, type: 3}
@@ -542,7 +562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb6cdc0dd71a0594dac6f93aa26d754c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  highlightColor: {r: 1, g: 1, b: 1, a: 1}
+  highlightColor: {r: 0.98490566, g: 0.9418535, b: 0.8752652, a: 1}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,7 +672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb6cdc0dd71a0594dac6f93aa26d754c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  highlightColor: {r: 1, g: 1, b: 1, a: 1}
+  highlightColor: {r: 0.98490566, g: 0.9418535, b: 0.8752652, a: 1}
 --- !u!4 &1118333646 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6995605727102776847, guid: f70b8d9e4c69c9f4b8c7f714891dda42, type: 3}
@@ -680,7 +700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb6cdc0dd71a0594dac6f93aa26d754c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  highlightColor: {r: 1, g: 1, b: 1, a: 1}
+  highlightColor: {r: 0.98490566, g: 0.9418535, b: 0.8752652, a: 1}
 --- !u!1001 &1266202335
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1268,7 +1288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb6cdc0dd71a0594dac6f93aa26d754c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  highlightColor: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
+  highlightColor: {r: 0.98490566, g: 0.9418535, b: 0.8752652, a: 1}
 --- !u!1 &1732836710 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3380428792112085577, guid: f70b8d9e4c69c9f4b8c7f714891dda42, type: 3}
@@ -1286,7 +1306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb6cdc0dd71a0594dac6f93aa26d754c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  highlightColor: {r: 1, g: 1, b: 1, a: 1}
+  highlightColor: {r: 0.98490566, g: 0.9418535, b: 0.8752652, a: 1}
 --- !u!4 &1863587786 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7616178458458347025, guid: 49a4972acab95bd4a8db0f0851b39465, type: 3}
